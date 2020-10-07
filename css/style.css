@@ -1,0 +1,368 @@
+/* Подключение шрифтов */
+
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+ol li,
+ul li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+
+body {
+   min-height: 100%;
+   font-size: 14px;
+   line-height: 1;
+   overflow: hidden;
+   
+}
+
+
+/*---------*/
+
+.wrapper {
+   max-width: 100%;
+
+}
+.bg {
+   background: #25282f;
+
+}
+
+.markup {
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+   border: 10px dashed #76777b;
+   top: 600px;
+}
+
+
+.auto {
+   position: relative;
+   z-index: 1;
+   max-width: 600px;
+   min-height: 500px;
+   margin: 0 auto;
+}
+
+
+.molding {
+   position: absolute;
+   z-index: 5;
+   width: 485px;
+   height: 23px;
+
+   background: linear-gradient(180deg, rgb(109, 76, 0) 20%, rgb(50, 36, 0) 83%);
+
+   bottom: 227px;
+   left: 170px;
+   border-radius: 0px 0px 6px 6px;
+}
+
+
+.autodoor {
+   position: relative;
+   z-index: 5;
+   width: 390px;
+   height: 216px;
+
+   left: 240px;
+   top: 623px;
+  
+   background: linear-gradient(180deg, rgb(253, 194, 1), rgb(125, 89, 3), rgb(64, 42, 1));
+   border-radius: 100% 45% 55% 45% / 0% 100% 0% 100%; 
+   border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.mirror {
+   position: absolute;
+   z-index: 0;
+   width: 40px;
+   height: 40px;
+
+   top: -39px;
+   right: 62px;
+
+   background: linear-gradient(180deg, rgb(253, 194, 1), rgb(125, 89, 3), rgb(64, 42, 1));
+   border-radius: 9px 40px 0 10px;
+}
+
+.doorhandle {
+   position: absolute;
+   z-index: 20;
+   width: 50px;
+
+   left: 20px;
+   top: 27px;
+
+   border-top: 10px solid #000;
+   border-radius: 10px 0 10px 0;
+   box-shadow: -1px 2px 2px 0 rgba(0, 0, 0, 0.6);
+   
+}
+
+.rearwing {
+   position: relative;
+   z-index: 4;
+   width: 340px;
+   height: 217px;
+
+   left: 50px;
+   top: 407px;
+   
+   background: linear-gradient(180deg, rgb(253, 194, 1), rgb(125, 89, 3), rgb(64, 42, 1));
+   border-radius: 100% 0% 75% 25% / 0% 100% 0% 100% ;
+   border: 2px solid rgba(0, 0, 0, 0.8);
+   /*box-shadow: -50px 20px 10px 1px black;*/
+}
+
+.autofender2{
+   position: absolute;
+   z-index: 10;
+   width: 250px;
+   height: 161px;
+
+   left: -129px;
+   top: 55px;
+   
+    
+   border: 0.5px solid #402e00;
+   border-radius: 52% 48% 47% 53% / 100% 100% 0% 0%;
+   border-bottom: none;
+   background-color: #402e00;
+}
+
+
+.stop {
+   position: absolute;
+   z-index: 0;
+   width: 80px;
+   height: 40px;
+
+   left: -260px;
+   top: 40px;
+
+   background: linear-gradient(180deg, rgb(158, 158, 160) 26%, rgb(96, 0, 0) 76%);
+   border-radius: 100px 10px 0 10px;
+   border: 1px solid rgba(0, 0, 0, 0.7);
+   box-shadow: -2px 1px 5px black;
+}
+.stop:hover {
+   box-shadow: -10px -5px 30px 10px rgb(96, 0, 0);
+
+}
+
+
+.trunk1 {
+   position: relative;
+   z-index: 3;
+   width: 390px;
+   height: 219px;
+
+   left: -235px;
+   top: -26px;
+
+   background: linear-gradient(180deg, rgb(253, 194, 1), rgb(125, 89, 3), rgb(64, 42, 1));
+   /*border-radius: 100% 0% 85% 15% / 61% 100% 0% 39%;*/
+   border-radius: 73% 27% 65% 35% / 57% 100% 0% 43%;
+   border: 2px solid rgba(0, 0, 0, 0.4);
+  
+}
+
+.frontfender {
+   position: relative;
+   z-index: 2;
+
+   width: 580px;
+   height: 215px;
+
+   left: 485px;
+   top: 191px;
+   
+   background: linear-gradient(180deg, rgb(253, 194, 1), rgb(125, 89, 3), rgb(64, 42, 1));
+   /*border-radius: 8% 92% 38% 62% / 100% 72% 28% 0% ;*/
+   border-radius: 0% 100% 42% 58% / 99% 75% 25% 1% ;
+   border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+
+.autofender1{
+   position: absolute;
+   z-index: 0;
+   width: 240px;
+   height: 144px;
+
+   left: 165px;
+   top: 70px;
+      
+   border: 0.5px solid #402e00;
+   border-radius: 52% 48% 47% 53% / 100% 100% 0% 0%;
+   border-bottom: none;
+   background-color: #402e00;
+
+
+}
+.lattice {
+   position: absolute;
+   z-index: 50;
+   width: 70px;
+   height: 50px;
+
+   right: -2px;
+   bottom: 35px;
+   
+   background: linear-gradient(180deg, rgb(20, 20, 21) 3%, rgb(118, 89, 0) 46%, rgb(7, 7, 7) 96%);
+   border-radius: 10px 30px 25px 30px;
+   border: 1px solid black;
+   box-shadow: -2px 1px 3px  rgba(0, 0, 0);
+
+}
+.headlights {
+   position: absolute;
+   z-index: 50;
+   width: 70px;
+   height: 50px;
+
+   right: 120px;
+   top: 39px;
+   
+   background:  linear-gradient(180deg, rgb(167, 167, 157) 36%, rgb(59, 61, 70) 100%);
+   border-radius: 0% 100% 0% 100% / 16% 72% 28% 84%;
+   border: 2px solid rgba(0, 0, 0, 0.4);
+   box-shadow: -4px 1px 10px  rgba(0, 0, 0);
+}
+
+.headlights:hover {
+   box-shadow: 2px -15px 180px 30px #cddbe5;
+
+}
+
+.wheel1 {
+   position: relative;
+   z-index: 10;
+   width: 200px;
+   height: 200px;
+
+   left: -50px;
+   top: -180px; 
+
+   border-radius: 50%;
+   background: radial-gradient(ellipse at center, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
+   border: 20px solid rgba(0, 0, 0);
+   /*box-shadow: 0 0 10px  rgba(0, 0, 0);*/
+}
+
+.wheel2 {
+   position: absolute;
+   z-index: 20;
+   width: 40px;
+   height: 40px;
+
+   right: 60px;
+   top: 60px;
+   padding: 5px;
+
+   border-radius: 50%;
+   border: 10px solid rgba(0, 0, 0);
+
+}
+
+.wheel3 {
+   position: absolute;
+   z-index: 10;
+   width: 200px;
+   height: 200px;
+
+   right: -275px;
+   bottom: 165px; 
+
+   border-radius: 50%;
+   background: radial-gradient(ellipse at center, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);
+   border: 20px solid rgba(0, 0, 0);
+   /*box-shadow: 0 0 10px  rgba(0, 0, 0);*/
+
+}
+
+.wheel4 {
+   position: absolute;
+   z-index: 20;
+   width: 40px;
+   height: 40px;
+
+   right: 60px;
+   top: 60px;
+   padding: 5px;
+
+
+   border-radius: 50%;
+   border: 10px solid rgba(0, 0, 0);
+   
+}
+
+.roof{
+   position: absolute;
+   z-index: 0;
+   width: 540px;
+   height: 180px;
+
+   bottom: 380px;
+   left: 30px;
+
+   border: 30px solid rgba(0, 0, 0);
+   border-bottom: none;
+   border-right: none;
+   border-radius: 31% 69% 0% 100% / 80% 71% 29% 20%;
+   background: linear-gradient(180deg, rgb(167, 167, 157) 36%, rgb(59, 61, 70) 100%);
+
+}
+
+.roof:hover {
+   position: absolute;
+   z-index: 0;
+   width: 240px;
+   height: 180px;
+
+   bottom: 380px;
+   left: 340px;
+
+   border: 20px solid rgba(0, 0, 0);
+   border-top: none;
+   border-bottom: none;
+   border-left: none;
+   border-radius: 7% 93% 0% 100% / 0% 100% 0% 100% ;
+   background: none;
+
+}
+
+
+
+
+
+
+   
